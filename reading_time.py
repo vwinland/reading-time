@@ -6,4 +6,4 @@ from math import ceil
 def estimate_minutes(text: str) -> int:
     """Return zero for empty text; otherwise round up to a whole minute."""
     word_count = len(text.split())
-    return ceil(word_count / 200)
+    return ceil(word_count / 100)
